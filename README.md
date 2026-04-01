@@ -16,4 +16,4 @@ This repository is divided into three subtopics with a separate README file each
     Shows how our evaluation script works on the Synapse server using our baseline model as an example. During the validation phase, you will need to [upload predictions](https://www.synapse.org/Synapse:syn51156910/wiki/622885) to the Synapse server.
 
 ### Submission
-    Using our baseline model as an example guides you through the [synapse submission process](https://www.synapse.org/Synapse:syn53708249/wiki/627758).\* This is relevant for the final submission, where you will upload your whole model to Synapse.\*
+Using our baseline model as an example guides you through the [synapse submission process](https://www.synapse.org/Synapse:syn53708249/wiki/627758).\* This is relevant for the final submission, where you will upload your whole model to Synapse.\*
