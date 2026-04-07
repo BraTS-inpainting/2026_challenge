@@ -1,5 +1,5 @@
 # The Dataset
-The [dataset for training](https://www.synapse.org/#!Synapse:syn51522870) can be downloaded on the official Synapse website after [registering for the challenge](https://www.synapse.org/#!Synapse:syn51156910/wiki/622347).
+The [dataset for training](https://www.synapse.org/Synapse:syn74274097/datasets/) can be downloaded on the official Synapse website after [registering for the challenge](https://www.synapse.org/Synapse:syn74274097/wiki/).
 
 ## Dataset structure
 The ```ASNR-MICCAI-BraTS2023-Local-Synthesis-Challenge-Training``` folder contains one sub-folder for each brain.
@@ -19,10 +19,7 @@ The following entries for ```{type}``` exist in this inpainting challenge:
 Note that your inpainting algorithm has to be able to work **only on the mask and the t1n-voided file**. The additionally provided files during the training phase are only meant for enhancing the training process (e.g. when participants want to generate more/different training data)
 
 ## Dataset generation (optional)
-It is also possible to generate the ```ASNR-MICCAI-BraTS2023-Local-Synthesis-Challenge-Training``` dataset locally. The Jupyter Notebook ```dataset_generation.ipynb``` contains a step-by-step guide to generate our dataset. Example pictures as well as some documentation is also provided there. Note that our dataset is based on the general BraTS2023-GLI-Challenge-TrainingData. Therefore, to generate our dataset you first need to download and extract [ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData.zip](https://www.synapse.org/#!Synapse:syn51514132).
+It is also possible to generate the ```ASNR-MICCAI-BraTS2023-Local-Synthesis-Challenge-Training``` dataset locally. The Jupyter Notebook ```dataset_generation.ipynb``` contains a step-by-step guide to generate our dataset. Example pictures as well as some documentation is also provided there. Note that our dataset is based on the general BraTS2023-GLI-Challenge-TrainingData. Therefore, to generate our dataset you first need to download and extract [ASNR-MICCAI-BraTS2023-GLI-Challenge-TrainingData.zip](https://www.synapse.org/Synapse:syn74274097/datasets/).
 
 ### Requirements
 - A python3 environment containing the following packages: ```numpy pandas nibabel scipy tqdm matplotlib jupyter```
-
-
-

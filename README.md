@@ -5,7 +5,7 @@
 
 This repository is meant as a tutorial for challenge participants. 
 
-If you have not visited the [BraTS 2026 Inpainting Website]([https://www.synapse.org/#!Synapse:syn51156910/wiki/622357](https://www.synapse.org/Synapse:syn53708249/wiki/627498)) yet, you should do so. Also, consider reading [the challenge manuscript](https://arxiv.org/abs/2305.08992) for more context, as the GitHub tutorial is somewhat technical in nature.
+If you have not visited the [BraTS 2026 Inpainting Website](https://www.synapse.org/Synapse:syn74274097/wiki/639580) yet, you should do so. Also, consider reading [the challenge manuscript](https://arxiv.org/abs/2305.08992) for more context, as the GitHub tutorial is somewhat technical in nature.
 
 This repository is divided into three subtopics with a separate README file each.
 - **[Dataset](./dataset/)**:
@@ -13,7 +13,7 @@ This repository is divided into three subtopics with a separate README file each
 - **[Baseline Model](./baseline/)**:
     Explains the creation of the baseline model. Also includes performance evaluations. You might want to use this chapter as a starting point for your own (better) model!
 - **[Evaluation](./evaluation/)**:
-    Shows how our evaluation script works on the Synapse server using our baseline model as an example. During the validation phase, you will need to [upload predictions](https://www.synapse.org/Synapse:syn51156910/wiki/622885) to the Synapse server.
+    Shows how our evaluation script works on the Synapse server using our baseline model as an example. During the validation phase, you will need to [upload predictions](https://www.synapse.org/Synapse:syn74274097/wiki/639595) to the Synapse server.
 
 ### Submission
-Using our baseline model as an example guides you through the [synapse submission process](https://www.synapse.org/Synapse:syn53708249/wiki/627758).\* This is relevant for the final submission, where you will upload your whole model to Synapse.\*
+Using our baseline model as an example guides you through the [synapse submission process](https://www.synapse.org/Synapse:syn74274097/wiki/639584).\* This is relevant for the final submission, where you will upload your whole model to Synapse.\*
